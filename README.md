@@ -24,4 +24,4 @@
 8) Desde la consola nos dirigimos al siguiente directorio *(Bootcamp-Etherium\Bootcamp Etherium - Api)* y ejecutamos el comando para correr la aplicación. En simultaneo, abriremos otra consola y ubicados en *(Bootcamp-Etherium\Bootcamp Etherium - Client)* ejecutaremos el mismo comando: 
    - `npm start`
     
-9) Desde la consola podremos observar que se correrán las herramientas de desarrollo, que nos brinda Expo, en un puerto local. Cliqueamos en la dirección y desde aquí podremos visualizar la aplicación, ya sea desde un simulador o desde nuestro dispositivo móvil, sea Andorid o iOS
+9) Desde la consola podremos observar que se correrán las herramientas de desarrollo, que nos brinda Expo, en un puerto local. Cliqueamos en la dirección y desde aquí podremos visualizar la aplicación, ya sea desde un simulador o desde nuestro dispositivo móvil con la aplicación **Expo Go**, disponible para Andorid y iOS
