@@ -33,7 +33,7 @@ contract Loans {
         loansCount++;
     }
 
-    function getLoanList(int id) public restricted() view returns (Loan[] memory) {
+    function getLoanList(int id) public view returns (Loan[] memory) {
         Loan[] memory lList;
 
         if (id >= 0) {
