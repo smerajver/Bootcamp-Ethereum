@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React, {useEffect, useState} from 'react'
 import globalStyles from '../styles/styles'
 import { IP_DEV } from '@env'
+import { PORT_DEV } from '@env'
 
 import LoansList from '../components/LoansList'
 
@@ -13,7 +14,7 @@ export default function Home() {
   }, [])
 
   async function getLoansList() {
-    const res = await fetch('http://' + IP_DEV + '/getLoanList/-1')
+    const res = await fetch('http://' + IP_DEV + ':' + PORT_DEV + '/getLoanList/-1')
     const data = await res.json()
 
     let loansResponse = []
